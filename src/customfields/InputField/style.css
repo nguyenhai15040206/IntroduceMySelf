@@ -1,0 +1,30 @@
+input[type=text]{
+    background-color: #222222;
+    color: #777;
+    width: 100%;
+    outline: none;
+    border:none;
+    border-bottom: 1px solid #1d1d1d;
+    border-radius: 2px;
+    font-size: 15px;
+    height: 44px;
+    padding: 9px 14px;
+
+    overflow: visible;
+
+}
+
+
+input[type=text]:focus{
+    
+    outline: none;
+    outline-width: 0;
+    border-bottom: 1px solid #099e66;
+    background-color: #222222;
+}
+
+
+
+.form-group{
+    margin-bottom: 25px;
+}

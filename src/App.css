@@ -1,0 +1,64 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 90vmin;
+  width: 90vmin;
+  border-radius: 50%;
+  pointer-events: none;
+}
+
+
+.App-header {
+  background-image:url('./assets/Images//MyPhotos/bg1.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  /* flex-direction: column; */
+  /* flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+} */
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */ 
+
+.App{
+  margin: 0;
+  padding: 0;
+}
+
+.App .App-main #myVideo{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+}
+
+.App .App-main{
+  position: relative;
+}
+
+.App .App-main audio{
+  width: 200px;
+  transform: scaleY(0.8);
+  transform: rotate(90deg);
+  position: fixed;
+  bottom: 0;
+  left:0;
+  margin: 0px 0px 100px;
+}
+
+
+

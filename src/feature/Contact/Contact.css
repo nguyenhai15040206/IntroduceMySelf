@@ -1,0 +1,132 @@
+body{
+    color:ivory;
+    padding: 0;
+    margin: 0;
+    font-size: 2.5rem;
+    background-color: #161616;
+}
+
+#back-home{
+    float: right;
+}
+
+.header .row{
+    padding: 20px 0px 0px;
+    display: flex;
+    flex-flow: wrap;
+
+}
+.header .section-heading.page-heading{
+    margin-bottom: 83px;
+    text-align: center;
+}
+
+.header .section-heading .section-description{
+    font-size: 1.05rem;
+    margin-bottom: 17px;
+}
+
+.header .row .animated-bar{
+    margin-top: 10px;
+    background-color: #009e66;
+    content: '';
+    display: block;
+    height: 4px;
+    left: 0;
+    margin: 0px auto 0px auto;
+    position: relative;
+    right: 0;
+    width: 100%;
+    justify-content: center;
+} 
+
+/*Contact section*/
+.contact-section{
+    font-size: 21px;
+}
+
+h4{
+    font-size: 1.5rem;
+}
+
+/* Form*/
+.contact-section .contact-title{
+    margin-bottom: 22px;
+}
+
+
+
+
+
+.btn.button-scheme {
+    background-color: #009e66!important;
+    border: 1px solid #009e66!important;
+
+    color:ivory;
+    border-radius: 30px;
+}
+
+
+.align-items-center  a{
+    text-decoration: none;
+    color: ivory;
+}
+.align-items-center a:hover{
+    color: #009e66;
+}
+
+
+button,input{
+    overflow: visible;
+}
+
+/*COntac info*/
+
+.contact-info .info-description{
+    font-size: 15px;
+    margin-bottom: 28px;
+}
+
+.contact-info .ul{
+    margin: 0;
+}
+
+.list-unstyled{
+    list-style:  none;
+    padding-left: 0;
+}
+
+.align-items-center{
+    align-items: center!important ;
+}
+
+.contact-section .contact-info .list-info>li:last-child .info-icon {
+    margin-top: 13px;
+}
+.contact-section .contact-info .list-info .info-icon {
+    font-size: 32px;
+    margin-right: 50px;
+    position: relative;
+}
+
+
+
+.contact-section .contact-info .list-info .info-details {
+    font-size: 14px;
+    border-left: 2px solid rgba(255,255,255,.15);
+    padding: 12px 0px 12px 22px;
+}
+
+
+.contact-info .list-info .info-icon i{
+    color: #009e66;
+    left: 0;
+    line-height: 100%;
+    width: 150px;
+    position: absolute;
+    transform: translate(0,-50%);
+}
+
+#contact-main .container-fluid button{
+    transition: all 0.25s ease-in-out 0s;
+}

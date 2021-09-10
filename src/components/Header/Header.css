@@ -1,0 +1,114 @@
+
+.container-fluid .header .header-nav{
+    float: right;
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding: 20px 20px 0px;
+}
+.container-fluid .header .header-nav .header-ul .nav-item a{
+    color: ivory;
+}
+
+.container-fluid .header .header-nav .header-ul .nav-item a:hover{
+    transition:  all 0.15s ease-in-out 0.1s;
+    color: lightseagreen;
+    
+}
+.container-fluid .header img{
+    width: 100%;
+    height: 80px;
+    padding: 20px -10px 0px;
+
+}
+
+.nav-link{
+    transition: all .5s ease-in-out 0s;
+}
+
+.jsFooter{
+    float: right;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    padding: 0px 20px 20px;
+}
+
+.jsFooter .list-item i{
+    color: ivory;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+}
+
+.jsFooter .list-item i:hover{
+    text-decoration: none;
+    color: #009e66;
+}
+
+.intro{
+    text-align: center;
+    color: ivory;
+    position: relative;
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+}
+
+.intro h1{
+    font-size: 70px;
+    font-weight: 900;
+    font-family: Comic Sans, Comic Sans MS, cursive;
+    letter-spacing: 1px;
+    margin-bottom: 23px;
+
+    stroke: white;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 5px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 5.5s infinite linear;
+}
+
+.intro p{
+    font-size: 32px;
+    font-weight: 400;
+    letter-spacing: .3px;
+    margin-bottom: 0;
+    font-family: Comic Sans, Comic Sans MS, cursive;
+}
+
+
+@media only screen and (max-width: 1440px){
+
+    .jsFooter{
+        padding: 0px 20px 40px;
+    }
+
+    
+}
+
+@media only screen and (max-width: 2560px){
+    .jsFooter{
+        padding: 0px 20px 20px;
+    }
+
+
+    
+}
+
+@media only screen and (min-width: 600px){
+    .jsFooter{
+        padding: 0px 20px 10px;
+    }
+
+    .container-fluid .header .col-12.col-lg-7{
+        width: 50%;
+    
+    }
+
+    
+}
+
+
+

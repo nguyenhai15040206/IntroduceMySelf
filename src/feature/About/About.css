@@ -1,0 +1,195 @@
+body{
+    background-color: #161616;
+}
+
+.header{
+    padding: 20px 20px 0px;
+    text-align: center;
+    color:ivory;
+}
+
+.back-home{
+    float: right;
+}
+
+
+.header span{
+    font-size: 2.5rem; 
+    font-weight: bold;
+}
+
+.header .row .animated-bar{
+    margin-top: 10px;
+    background-color: #009e66;
+    content: '';
+    display: block;
+    height: 4px;
+    left: 0;
+    margin: 0px auto 0px auto;
+    position: relative;
+    right: 0;
+    width: 100%;
+    justify-content: center;
+} 
+
+
+/* .aubout-me img{
+    border-radius: 100%;
+    padding: 5px 5px 5px;
+    width: 430px;
+    height: 400px;
+} */
+.about-me .info-img{
+    text-align: center;
+}
+.about-me .info-img img{
+    padding: 20px 10px 0px;
+    border-radius: 100%;
+    width: 100%;
+    height: 430px;
+}
+/* gio thieu ve ban than */
+.info-content{
+    padding: 30px 0px 0px;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: ivory;
+    font-weight: 200;
+}
+
+.info-content .content-block .content-description{
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.info-content .content-block .content-subtitle{
+    font-weight: 100;
+    color: #009e66;
+}
+
+.info-content .content-block hr{
+    margin-top: 20px;
+    width: 100%;
+    height: 0.5px;
+    background-color: lightslategray;
+}
+
+.info-content .content-info{
+    font-size: 1.05rem;
+}
+
+.info-content .content-info .single-info a{
+   color: #009e66;
+   text-decoration: none;
+}
+
+/*  */
+.info-content .content-contact{
+    height: 200px;
+    max-height: 200px;
+}
+
+.info-content .content-contact button{
+    width: 200px;
+    max-width: 200px;
+    height: 40px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #009e66;
+    border: none;
+    border-radius: 25px;
+}
+
+.info-content .content-contact hr{
+    width: 100%;
+    background-color: lightslategray;
+    height: 0.5px;
+}
+
+.info-content .content-contact .content-follow{
+    margin-top: 10px;
+    display: flex;
+    line-height: 100%;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.info-content .content-contact .content-follow li:not(last-child){
+    margin-right: 14px;
+}
+
+.info-content .content-contact .content-follow .list-inline-item{
+    display: inline-block;
+}
+
+.info-content .content-contact .content-follow li a{
+    color: #cecece;
+}
+
+.info-content .content-contact .content-follow li a:hover{
+    transition: all 0.25s ease 0s;
+    color: #009e66;
+}
+
+.info-content .content-contact .content-follow li{
+    font-size: 21px;
+}
+
+.technologies{
+    color: #cecece;
+    margin-bottom: 50px;
+}
+.technologies .title{
+    margin-bottom: 30px;
+}
+
+.technologies .single-service .service-title{
+    font-size: 1.05rem;
+}
+
+.technologies .single-service{
+    color: #cecece;
+    font-size: 15px;
+    font-weight: 200;
+    background-color: #222222;
+    border-bottom:2px solid transparent;
+    box-shadow: 0 6px 15px rgb(0 0 0 / 20%);
+    margin-bottom: 30px;
+    padding: 38px 42px;
+    height: 250px;
+    transition:  all 0.25s ease-in-out;
+}
+
+.technologies .single-service .service-icon {
+    display: inline-block;
+    font-size: 58px;
+    color: #009e66;
+    margin-bottom: 20px;
+}
+
+.technologies .single-service .service-icon i{
+    line-height: 100%;
+}
+
+.technologies .single-service:hover{
+    border-bottom-color: #009e66;
+}
+
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .about-me .info-img img {
+        text-align: center;
+      width: 350px;
+      height: 350px;
+      border-radius: 100%;
+    }
+
+    .info-content .content-block{
+        margin-top: 10px;
+        padding: 0px 10px 0px;
+    }
+  }
+
+
+
